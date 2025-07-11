@@ -3,9 +3,9 @@
 
 ## Install Theme
 
-Connect via ssh to OPNSense Firewall
-Clone Project to directory /usr/local/opnsense/www/themes/
-Erase README.md and LICENSE Files
+- Connect via ssh to OPNSense Firewall
+- Clone Project to directory /usr/local/opnsense/www/themes/
+- Erase README.md and LICENSE Files
 
 ```
 cd /usr/local/opnsense/www/themes/
