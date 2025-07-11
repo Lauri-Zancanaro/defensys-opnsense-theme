@@ -14,3 +14,5 @@ rm README.md
 rm LICENSE
 ```
 
+- In WEBUI go to System > Settings > General > Theme
+- Select Defensys Theme and Save
