@@ -16,3 +16,4 @@ rm LICENSE
 
 - In WEBUI go to System > Settings > General > Theme
 - Select Defensys Theme and Save
+- Force Browser to renew images (Ctrl + Shift + R)
