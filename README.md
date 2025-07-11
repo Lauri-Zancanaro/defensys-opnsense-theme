@@ -11,6 +11,6 @@
 cd /usr/local/opnsense/www/themes/
 git clone https://github.com/Lauri-Zancanaro/defensys-opnsense-theme.git
 rm README.md
-rm LISENSE
+rm LICENSE
 ```
 
