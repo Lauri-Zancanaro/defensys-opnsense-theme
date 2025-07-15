@@ -4,10 +4,12 @@
 ## Install Theme
 
 - Connect via ssh to OPNSense Firewall
+- Install git
 - Clone Project to directory /usr/local/opnsense/www/themes/
 - Erase README.md and LICENSE Files
 
 ```
+pkg install git
 cd /usr/local/opnsense/www/themes/
 git clone https://github.com/Lauri-Zancanaro/defensys-opnsense-theme.git
 rm README.md
