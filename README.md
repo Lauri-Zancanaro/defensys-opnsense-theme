@@ -5,15 +5,16 @@
 
 - Connect via ssh to OPNSense Firewall
 - Install git
-- Clone Project to directory /usr/local/opnsense/www/themes/
-- Erase README.md and LICENSE Files
-
+- Clone Project to directory /root
+- Copy defensys theme directory to /usr/local/opnsense/www/themes/
+  
 ```
 pkg install git
-cd /usr/local/opnsense/www/themes/
+cd /root
 git clone https://github.com/Lauri-Zancanaro/defensys-opnsense-theme.git
-rm README.md
-rm LICENSE
+cp /root/defensys-opnsense-theme/defensys /usr/local/opnsense/www/themes/defensys
+cd /usr/local/opnsense/www/themes/
+ls -l
 ```
 
 - In WEBUI go to System > Settings > General > Theme
