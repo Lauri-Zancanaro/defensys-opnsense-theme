@@ -12,7 +12,7 @@
 pkg install git
 cd /root
 git clone https://github.com/Lauri-Zancanaro/defensys-opnsense-theme.git
-cp /root/defensys-opnsense-theme/defensys /usr/local/opnsense/www/themes/defensys
+cp -r /root/defensys-opnsense-theme/defensys /usr/local/opnsense/www/themes/defensys
 cd /usr/local/opnsense/www/themes/
 ls -l
 ```
